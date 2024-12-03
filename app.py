@@ -1,7 +1,7 @@
 
 from flask import Flask
 from web.routes import initialize_routes
-from monitoring.logging import setup_logging
+from monitoring.log_setup import setup_logging
 from monitoring.notifications import start_telegram_bot
 from threading import Thread
 from config.settings import TELEGRAM_BOT_TOKEN
