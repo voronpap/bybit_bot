@@ -1,5 +1,7 @@
+
+flask
+python-telegram-bot
+requests
+tensorflow
 pandas
-numpy
-scikit-learn
-python-dotenv
-bybit
+websocket-client
